@@ -1,0 +1,27 @@
+// Altura en centimetros (valor entero)
+let alturaEntera = 176;
+console.log(alturaEntera);
+
+// Altura en centimetros (valor de coma flotante)
+let alturaFloat = 1.76;
+console.log(alturaFloat);
+
+// Peso en kilogramos (numero de coma flotante)
+let peso = 83.45;
+console.log(peso);
+
+// Altura redondeada hacia arriba
+let altura2 = alturaFloat.toFixed();
+console.log(altura2);
+
+// Peso redondeado hacia arriba
+let peso2 = peso.toFixed();
+console.log(peso2);
+
+// Una variable que contenga si "el máximo valor que se puede obtener en Javascript + 1" es igual al máximo valor que se puede obtener en Javascript
+let max1 = Number.MAX_VALUE + 1;
+console.log(max1);
+let max2 = Number.MAX_VALUE;
+console.log(max2);
+
+console.log(max1 === max2);
